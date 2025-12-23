@@ -153,6 +153,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
 
 # Python
 __pycache__/
@@ -196,7 +200,6 @@ coverage.xml
 cover/
 *.mo
 *.pot
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -214,7 +217,6 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 *.sage.py
-.env
 .venv
 env/
 venv/
